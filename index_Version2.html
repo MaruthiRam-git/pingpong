@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Simple Pong</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Simple Pong</h1>
+    <div class="scoreboard">
+      <div class="score">Player: <span id="leftScore">0</span></div>
+      <div class="score">Computer: <span id="rightScore">0</span></div>
+    </div>
+
+    <canvas id="gameCanvas" width="800" height="500"></canvas>
+
+    <div class="controls">
+      <p>Controls: Move mouse over the canvas or use ArrowUp / ArrowDown to move the left paddle. Press R to reset scores. Press Space to toggle play/pause.</p>
+    </div>
+
+    <div class="buttons">
+      <button id="startBtn">Start</button>
+      <button id="pauseBtn">Pause</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
